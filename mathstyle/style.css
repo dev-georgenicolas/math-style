@@ -1,0 +1,76 @@
+
+body {
+    background-image: url(granulado.png);
+    background-color: #1B1919;
+    border: none;
+}
+
+
+.logo-texto img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 140px;
+}
+
+.containerNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s;
+    padding: 1rem;
+}
+
+
+img{
+    position:relative;
+    display:inline-block;
+    margin:2rem 1rem;
+    border-radius:5px;
+    box-shadow:0 1px 2px 0 rgba(0,0,0,0.1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.containerNav img {
+    display: block;
+    margin: auto;
+}
+
+
+
+.link-pants img {
+    padding-top: -50px;
+}
+
+nav.containerNav .link-footmasc img {
+    margin-top: 15px;
+}
+
+nav.containerNav .link-footfem img {
+    margin-top: 13px;
+}
+
+nav.containerNav .link-shirtmasc img {
+    margin-top: -5px;
+}
+
+nav.containerNav .link-shirtfem img {
+    margin-top: 0px;
+}
+
+nav.containerNav .link-pants img {
+   margin-top: -40px;
+}
+
+.containerNav img:hover {
+    -webkit-transform: scale(1.1);
+    transition: 0.5s;
+
+}
+
+.containerNav img:hover {
+    transition: all 0.5s;
+}
